@@ -1,2 +1,20 @@
 processed_data/forecasting_features.csv
 .ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+processed_data/
+artifacts/
+
+# Models (optional)
+*.pkl
+
+# OS
+.DS_Store
+Thumbs.db

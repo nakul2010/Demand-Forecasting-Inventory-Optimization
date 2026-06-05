@@ -11,7 +11,7 @@ st.set_page_config(
 
 # LOAD DATA
 df = pd.read_csv(
-    "processed_data/inventory_recommendations.csv"
+    "../processed_data/inventory_recommendations.csv"
 )
 
 

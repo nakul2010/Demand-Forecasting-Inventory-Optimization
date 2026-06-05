@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from pathlib import Path
 
 
 # PAGE CONFIG
@@ -10,8 +11,10 @@ st.set_page_config(
 
 
 # LOAD DATA
+BASE_DIR = Path(__file__).parent
+
 df = pd.read_csv(
-    "inventory_recommendations.csv"
+    BASE_DIR / "inventory_recommendations.csv"
 )
 
 
